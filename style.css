@@ -1,0 +1,46 @@
+p {
+    margin-left: 200px; /* Ajuste a quantidade para mover mais ou menos para a direita */
+    font-size: 30px;
+}
+
+/* Estilo para o h1 */ 
+h1 {
+    font-family: Arial, sans-serif; font-size: 50px; 
+    background-color: rgb(225,170,112);
+    /*justify-content: 50px; /* Move o texto para a direita */
+    width: 100vw;
+    padding: 20px 200px;
+    display: flex;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-left: 200px; 
+    font-family: Arial, sans-serif; font-size:35px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o poema e a imagem */
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.imagem-drummond {
+    width: 300px;
+    position: absolute;
+    top: 210px;
+    margin-left: 700px; /* Espaçamento entre o texto e a imagem */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o padding padrão do navegador */
+    background-color: cadetblue;
+}
+
+footer{
+    margin-left: 200px; 
+    font-family: 'Times New Roman', Times, serif; font-size:20px;
+}
+
